@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Tour of Heros (follow tutorial)';
+  title = 'Hansight OAuth 2.0 Manager';
 }

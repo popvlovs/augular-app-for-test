@@ -19,7 +19,16 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 19, name: 'Magma' },
       { id: 20, name: 'Tornado' }
     ]
-    return {heroes}
+    const users = [
+      {
+        id: 'FIKVIZS30007',
+        username: 'admin',
+        password: 'hT25i9D4+Qc1Ssz93DrW33lJoZ2szfzvVejTwFfkNAlssMMCTdzbRJmcGjEfik3u',
+        locked: false,
+        enabled: true,
+      }
+    ]
+    return {heroes,users}
   }
 
   constructor() { }

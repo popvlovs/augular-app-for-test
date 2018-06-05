@@ -10,7 +10,7 @@ const httpOptions = {
 };
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root' // declare a root provider
 })
 export class HeroService {
 
